@@ -17,3 +17,4 @@ test("rootPayload returns service message", () => {
   assert.equal(rootPayload().service, "github-actions-training-app");
   assert.match(rootPayload().message, /GitHub Actions training app/);
 });
+
